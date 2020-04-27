@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    data = combination(12)
+    data = combination(12 )
     return render_template('index.html', len=len(data), data=data)
 
 @app.route('/10')
