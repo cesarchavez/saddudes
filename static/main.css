@@ -1,13 +1,13 @@
 .main{
    padding-top: 20px;
    text-align: center;
-   font-size: 28px;
+   font-size: 30px;
 }
 
 .title {
    display: block;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: xx-large;
+   font-size: 50px;
    font-weight: bold;
    color: black;
    text-align: center;
@@ -26,7 +26,9 @@
    display: inline-block;
    align-content: stretch;
    padding-top: 10px;
+   padding-bottom: 20px;
    clear: both;
+   width: 60%;
 }
 
 .element{
