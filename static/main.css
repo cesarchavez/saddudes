@@ -1,28 +1,30 @@
 .main{
+   padding-top: 20px;
    text-align: center;
+   font-size: 28px;
 }
 
 .title {
    display: block;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: large;
+   font-size: xx-large;
    font-weight: bold;
    color: black;
    text-align: center;
-   padding: 20px;
+   padding: 10px;
 }
 
 .center {
-   display: inline-block;
    margin-left: auto;
    margin-right: auto;
    text-align: center;
-   padding: 4px;
+   padding-top: 10px;
   }
 
 .container{
    display: inline-block;
    align-content: stretch;
+   padding-top: 10px;
 }
 
 .element{
@@ -33,7 +35,5 @@
   }
 
   .imagen{
-   width: 70%;
-   max-width: 150px;
+   max-width: 130px;
    height: auto;
-  }
