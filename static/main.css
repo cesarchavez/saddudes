@@ -22,7 +22,6 @@
 
 .container{
    display: inline-block;
-   width: auto;
    align-content: stretch;
 }
 
@@ -31,4 +30,10 @@
    border-style: solid;
    padding: 4px;
    margin: 1px;
+  }
+
+  .imagen{
+   width: 100%;
+   max-width: 200px;
+   height: auto;
   }
