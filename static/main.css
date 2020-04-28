@@ -19,12 +19,14 @@
    margin-right: auto;
    text-align: center;
    padding-top: 10px;
+   clear: both;
   }
 
 .container{
    display: inline-block;
    align-content: stretch;
    padding-top: 10px;
+   clear: both;
 }
 
 .element{
