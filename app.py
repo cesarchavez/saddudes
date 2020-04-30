@@ -18,5 +18,9 @@ def index12():
     data = combination(12)
     return render_template('index.html', len=len(data), data=data)
 
+@app.route('/borrador')
+def borrador():
+    return render_template('borrador.html')
+
 if __name__ == "__ main__":
     app.run(debug=True)
